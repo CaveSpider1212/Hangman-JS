@@ -1,0 +1,71 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: darkseagreen;
+}
+
+.content {
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    background-color: #f7f7d6;
+    padding: 20px 10px 20px 10px;
+}
+
+.message {
+    font-size: 30px;
+    text-align: center;
+}
+
+.win {
+    color: #36b742;
+}
+
+.loss {
+    color: red;
+}
+
+.game {
+    width: fit-content;
+    height: 330px;
+    margin-bottom: 50px;
+}
+
+.image {
+    float: left;
+    width: 405px;
+    height: 330px;
+}
+
+.word {
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: bold;
+    width: fit-content;
+    float: left;
+    position: relative;
+    top: 120px;
+    margin-left: 20px;
+}
+
+.button-grid {
+    width: 840px;
+    margin: auto;
+}
+
+.letter {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: 2px solid black;
+    background-color: white;
+    font-size: 20px;
+}
+
+.collapsed {
+    visibility: collapse;
+}
+
+.hidden {
+    visibility: hidden;
+}
